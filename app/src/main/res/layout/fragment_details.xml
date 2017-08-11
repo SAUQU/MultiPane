@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+
+        />
+
+    <EditText
+        android:id="@+id/etOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Origin"/>
+
+    <EditText
+        android:id="@+id/etInstruments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Instrument"/>
+
+
+    <Button
+        android:id="@+id/btnSaveData"
+        android:onClick="saveData"
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:onClick="Delete"
+        android:text="Delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <ImageButton
+
+        android:id="@+id/ibtnTakePicture"
+        android:onClick="onClick"
+        android:src="@drawable/ic_camera_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        />
+
+
+
+
+
+</LinearLayout>
